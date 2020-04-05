@@ -1,0 +1,77 @@
+// Placeholder values for testing and development
+// failTables = {
+module.exports = {
+    melee: {
+        'size': 20,
+        1:  'Nothing',
+        2:  'Drop your weapon',
+        3:  'Drop your weapon',
+        4:  'Really, drop your weapon',
+        5:  'You slip and fall',
+        6:  'Your weapon is lodged in the floor, wall, or some other suitable object at the DMs discretion',
+        7:  'You fall and break a random potion',
+        8:  'Placeholder - 8',
+        9:  'Placeholder - 9',
+        10: 'Placeholder - 10',
+        11: 'Placeholder - 11',
+        12: 'Placeholder - 12',
+        13: 'Placeholder - 13',
+        14: 'Placeholder - 14',
+        15: 'Placeholder - 15',
+        16: 'Placeholder - 16',
+        17: 'Placeholder - 17',
+        18: 'Placeholder - 18',
+        19: 'Placeholder - 19',
+        20: 'Placeholder - 20',
+    },
+
+    ranged: {
+        'size': 10,
+        1:  'Ranged Placeholder - 1',
+        2:  'Ranged Placeholder - 2',
+        3:  'Ranged Placeholder - 3',
+        4:  'Ranged Placeholder - 4',
+        5:  'Ranged Placeholder - 5',
+        6:  'Ranged Placeholder - 6',
+        7:  'Ranged Placeholder - 7',
+        8:  'Ranged Placeholder - 8',
+        9:  'Ranged Placeholder - 9',
+        10: 'Ranged Placeholder - 10',
+    },
+
+    natural: {
+        'size': 10,
+        1:  'Natural Placeholder - 1',
+        2:  'Natural Placeholder - 2',
+        3:  'Natural Placeholder - 3',
+        4:  'Natural Placeholder - 4',
+        5:  'Natural Placeholder - 5',
+        6:  'Natural Placeholder - 6',
+        7:  'Natural Placeholder - 7',
+        8:  'Natural Placeholder - 8',
+        9:  'Natural Placeholder - 9',
+        10: 'Natural Placeholder - 10',
+    },
+
+    spell: {
+        'size': 10,
+        1:  'Spell Placeholder - 1',
+        2:  'Spell Placeholder - 2',
+        3:  'Spell Placeholder - 3',
+        4:  'Spell Placeholder - 4',
+        5:  'Spell Placeholder - 5',
+        6:  'Spell Placeholder - 6',
+        7:  'Spell Placeholder - 7',
+        8:  'Spell Placeholder - 8',
+        9:  'Spell Placeholder - 9',
+        10: 'Spell Placeholder - 10',
+    },
+};
+
+// module.exports = {
+//     failTables,
+//     // meleeFails,
+//     // rangedFails,
+//     // naturalFails,
+//     // spellFails,
+// };
