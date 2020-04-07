@@ -3,7 +3,7 @@ let failTables = require('../data/fail-tables');
  module.exports = {
      name: 'fail',
      description: 'Generates random results for critical fails.',
-     usage: 'Usage: !fail <attack type> <user roll>\nGenerates a result for critically failed attack rolls using either a virtual random roll or a user supplied value from rolling at the table.\n<attack type> is required and should be one of melee, ranged, natural, or spell.\n<user roll> is optional and supplied only of the user has rolled at the table.',
+     usage: 'Usage: !fail weapon-type [user roll]\nGenerates a result for critically failed attack rolls using either a virtual random roll or a user supplied value from rolling at the table.\n<attack type> is required and should be one of melee, natural, ranged, thrown, or spell.\n<user roll> is optional and supplied only if the user has rolled at the table.',
      execute (message, args) {
         let result = '';
         let attackType = args[0];

@@ -9,4 +9,6 @@ Commands to the bot should be prefixed with and exclamation point `!`. Valid com
 - `ping`
     - Simply intended to be a quick test to see if the bot is still connected and functional. Bot replies with `pong`. Usage: `!ping`
 - `fail`
-    -  A critical fail result generator. The command can either roll a result for the user or the user can roll their own dice and provide the result as an optional argument. Usage: !fail _attack-type_ [_user-roll_]
+    -  A critical fail result generator. The command can either roll a result for the user or the user can roll their own dice and provide the result as an optional argument.  
+    Usage: `!fail attack-type [user-roll]`  
+    (Attack-type should be one of `melee`, `natural`, `ranged` (bows), `thrown` (spears, etc.), or `spell`).
