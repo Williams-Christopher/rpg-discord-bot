@@ -1,11 +1,11 @@
 # RPG Discord Utility Bot
 
-## A Discord bot providing utilities for RPG games, specifically D&D 5e
+## A Discord bot providing utilities for RPG games, geared toward D&D 5e
 
 ### Installing
 
 ### Using the bot
-Commands to the bot should be prefixed with and exclamation point `!`. Valid commands are currently:
+Commands to the bot should be prefixed with a bang `!`. Valid commands are currently:
 - `ping`
     - Simply intended to be a quick test to see if the bot is still connected and functional. Bot replies with `pong`. Usage: `!ping`
 - `fail`
