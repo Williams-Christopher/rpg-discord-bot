@@ -12,3 +12,4 @@ Commands to the bot should be prefixed with a bang `!`. Valid commands are curre
     -  A critical fail result generator. The command can either roll a result for the user or the user can roll their own dice and provide the result as an optional argument.  
     Usage: `!fail attack-type [user-roll]`  
     (Attack-type should be one of `melee`, `natural`, `ranged` (bows), `thrown` (spears, etc.), or `spell`).
+TESTING
